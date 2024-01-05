@@ -1,12 +1,23 @@
-# Project Title
+# Parthenogame
 
-A nice project with a nice description
+Online videogame store. made by Valerio Piccolo, Diego Pennacchio.
+
+---
+
+## Technologies
+
+- **Express.js** - Backend framework
+- **JavaScript** - Backend language
+- **React** - Frontend framework
+- **Typescript** - Frontend language
+- **MongoDb** - NoSQL database
+- **Shadcn** - UI Library
+- **Tailwind** - CSS framework
+- **Vite** - Development server
 
 ---
 
 ## Requirements
-
-For development, you will only need Node.js and a node global package, Yarn, installed in your environement.
 
 ### Node
 
@@ -39,32 +50,23 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 
 ###
 
-### Yarn installation
-
-After installing node, this project will need yarn too, so just run the following command.
-
-      $ npm install -g yarn
-
 ---
 
 ## Install
 
-    $ git clone https://github.com/YOUR_USERNAME/PROJECT_TITLE
-    $ cd PROJECT_TITLE
-    $ yarn install
+### To run the backend server
 
-## Configure app
+In terminal:
 
-Open `a/nice/path/to/a.file` then edit it with your settings. You will need:
+    $ git clone https://github.com/Valeriopiccolo/tech-web-project
+    $ cd tech-web-project/server
+    $ npm run dev
 
-- A setting;
-- Another setting;
-- One more setting;
+keep in mind that in order for the server to work, you must keep open the terminal window
 
-## Running the project
+### To run the web app
 
-    $ yarn start
+Open another terminal window
 
-## Simple build for production
-
-    $ yarn build
+    $ cd tech-web-project/react
+    $ npm run dev
