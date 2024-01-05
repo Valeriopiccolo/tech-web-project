@@ -60,7 +60,8 @@ In terminal:
 
     $ git clone https://github.com/Valeriopiccolo/tech-web-project
     $ cd tech-web-project/server
-    $ npm run dev
+    $ npm install
+    $ npm start
 
 keep in mind that in order for the server to work, you must keep open the terminal window
 
@@ -69,4 +70,5 @@ keep in mind that in order for the server to work, you must keep open the termin
 Open another terminal window
 
     $ cd tech-web-project/react
+    $ npm install
     $ npm run dev
