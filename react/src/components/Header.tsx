@@ -11,16 +11,13 @@ function Header() {
 				<div>
 					<ul className="flex gap-5 items-center">
 						<li>
-							<a
-								className="font-semibold"
-								href="https://github.com/Valeriopiccolo/tech-web-project"
-							>
-								Source
+							<a className="font-semibold" href="/register">
+								Register
 							</a>
 						</li>
 						<li>
-							<a className="font-semibold" href="/">
-								Home
+							<a className="font-semibold" href="/login">
+								Login
 							</a>
 						</li>
 						<li>

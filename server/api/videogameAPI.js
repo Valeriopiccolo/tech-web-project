@@ -1,5 +1,6 @@
 const Videogame = require("./../models/videogame");
 
+//POST
 const createVideogame = async (req, res) => {
 	const { title, author, price, image, platform, description } = req.body;
 

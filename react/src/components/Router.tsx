@@ -3,7 +3,10 @@ import Dashboard from "@/components/pages/Dashboard";
 import Collection from "@/components/pages/Collection";
 import Payment from "./pages/Payment";
 import Details from "./pages/Details";
+import Login from "./pages/Login";
+import Register from "./pages/Register";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import NewGame from "./pages/NewGame";
 
 function Router() {
 	return (
@@ -14,6 +17,9 @@ function Router() {
 					<Route path="/details/:id" element={<Details />} />
 					<Route path="/explore" element={<Collection />} />
 					<Route path="/buy/:id" element={<Payment />} />
+					<Route path="/login" element={<Login />} />
+					<Route path="/register" element={<Register />} />
+					<Route path="/addGame" element={<NewGame />} />
 				</Route>
 			</Routes>
 		</BrowserRouter>
