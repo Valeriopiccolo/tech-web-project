@@ -7,6 +7,7 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NewGame from "./pages/NewGame";
+import ModifyAccount from "./pages/ModifyAccount";
 
 function Router() {
 	return (
@@ -20,6 +21,7 @@ function Router() {
 					<Route path="/login" element={<Login />} />
 					<Route path="/register" element={<Register />} />
 					<Route path="/addGame" element={<NewGame />} />
+					<Route path="/updateAccount" element={<ModifyAccount />} />
 				</Route>
 			</Routes>
 		</BrowserRouter>

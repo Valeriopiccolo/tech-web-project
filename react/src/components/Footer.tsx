@@ -11,6 +11,11 @@ function Footer() {
 						</a>
 					</li>
 					<li>
+						<a href="/addGame" className="underline">
+							Add Game
+						</a>
+					</li>
+					<li>
 						<a
 							href="https://github.com/Valeriopiccolo/tech-web-project.git"
 							className="underline"

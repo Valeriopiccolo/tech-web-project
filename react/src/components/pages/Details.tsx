@@ -50,6 +50,20 @@ function Details() {
 								<p className="max-w-[1200px]">{videogame.description}</p>
 							</div>
 						</div>
+						<form action="#">
+							<div className="w-full">
+								<label className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
+									Quantity
+								</label>
+								<input
+									type="number"
+									name="price"
+									id="price"
+									className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+									placeholder="1"
+								/>
+							</div>
+						</form>
 						<a
 							className="align-middle my-3 select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-primary text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
 							type="button"

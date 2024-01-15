@@ -21,6 +21,11 @@ function Header() {
 							</a>
 						</li>
 						<li>
+							<a className="font-semibold" href="/updateAccount">
+								Account
+							</a>
+						</li>
+						<li>
 							<a className="font-semibold" href="/explore">
 								Explore
 							</a>
